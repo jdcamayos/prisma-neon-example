@@ -1,4 +1,6 @@
 {
+  "installCommand": "yarn install && prisma generate",
+  "buildCommand": "prisma generate && yarn build",
   "version": 2,
   "builds": [
     {
